@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link href="Nouveau.css" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+    <div class="col-sm"><nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu principale</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">Menu principale</span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Stagiaire</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Filière</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Groupes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">dev1</a></li>
+                  <li><a class="dropdown-item" href="#">dev2</a></li>
+
+                  <li><a class="dropdown-item" href="#">gst1</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-primary">Notifications</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav></div>
+      
+    
+  </div>
+  <div class="row">
+    <div class="col">
+        <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-primary">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-success">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card border-active mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+      <H1>BOOtstrap (framework)</H1>
+      <p>Bootstrap est une collection d'outils utiles à la création du design (graphisme,
+         animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web.
+          C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs,
+           ainsi que des extensions JavaScript en option. 
+           C'est l'un des projets les plus populaires sur la plate-forme de gestion de développement GitHub</p>
+           <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">CIN</th>
+                <th scope="col">Nom</th>
+                <th scope="col">Prenom</th>
+                <th scope="col">Age</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>CB25652</td>
+                <td>BENALI</td>
+                <td>SAID</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>X BEN X</td>
+                <td></td>
+                <td></td>
+                <td>45</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>CD5525</td>
+                <td>BENISS</td>
+                <td>ILHAM</td>
+                <td>29</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>CD55552</td>
+                <td></td>
+                <td>MOHCINE</td>
+                <td>33</td>
+              </tr>
+            </tbody>
+          </table>
+
+    </div>
+    <div class="col-3"><form action="/action_page.php">
+        <div class="mb-3 mt-3">
+          <label for="CIN" class="form-label">CIN</label>
+          <input type="text" class="form-control" id="CIN" name="CIN">
+        </div>
+        <div class="mb-3">
+          <label for="NOM" class="form-label">NOM</label>
+          <input type="text" class="form-control" id="NOM" name="NOM">
+          <label for="Prenom" class="form-label">Prenom</label>
+          <input type="text" class="form-control" id="Prenom"  name="Prenom">
+          <label for="Date" class="form-label">Date Naissance</label>
+          <input type="date" class="form-control" id="date"  name="date">
+        <br><br>
+        <button type="reset" class="btn btn-secondary">Annuler</button>
+         <button type="submit" class="btn btn-success" >Envoyer</button>
+      </form></div>
+  </div>
+                
+
+</body>
+</html>
